@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let session = "Github session"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print(session)
     }
 
 
