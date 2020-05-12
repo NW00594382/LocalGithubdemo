@@ -10,15 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let session = "Github session"
+    var session = "Github session"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        print(session)
+        showMeesage()
     }
-
-
+    
+    func showMeesage() {
+    session = "Github session 12345"
+    }
 }
 
